@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+img {
+    max-width: 100%; }
+/*--------------------*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    
+    background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb{
+    background: #934f13;
+}
+/***************************************/
+body{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #fff;
+    font-family: 'Unbounded', cursive;
+  }
+  .container{
+    max-width: 1528px;
+    margin: 0 auto;
+  }
+  .header{
+    position: relative;
+  }
+  .home__img{
+    position: relative;
+  }
+  .logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  .welcome__text{
+    font-family: 'Unbounded', cursive;
+    position: absolute;
+    top: 232px;
+    left: 225px;
+    font-size: 70px;
+    color: rgb(255 255 205);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  
+  .welcome__button{
+    position: absolute;
+    top: 485px;
+    left: 650px;
+    font-family: 'Unbounded', cursive;
+    font-size: 24px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 60px;
+    background: #0000ff7d;
+    color: rgba(255, 255, 255, 0.838);
+    border-radius: 24px;
+  }
+  .welcome__button:hover{
+    -webkit-box-shadow: 10px 10px 101px 0px rgba(23,23,23,1);
+    -moz-box-shadow: 10px 10px 101px 0px rgba(23,23,23,1);
+    box-shadow: 10px 10px 101px 0px rgba(23,23,23,1);
+    color: rgb(255, 255, 255);
+    background: #0000ff;
+    text-decoration: underline rgba(255, 255, 255, 0.315);
+    transition: all 0.3s ease;
+  }
+  .clash{
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+  }
+  .clash:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+  /*______________________________*/
+  .footer{
+    background: #1a1a1a;
+  }
+  .footer__text{
+    text-align: center;
+    padding: 10px 0;
+  }
